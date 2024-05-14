@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+
 struct UserOperation {
     address sender; // Who is initiating the operation
     bytes callData; // The actual call data to execute
